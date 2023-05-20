@@ -223,8 +223,9 @@ button a{
 .navBar{
   
 }
-
-
+.button-cart button{
+  padding: 0px 30px;
+}
 
 
 
@@ -295,4 +296,3 @@ section.our-services .card-wrapper{
 #submit:hover{
   background-image: linear-gradient(to left, green, green);
 }
-
