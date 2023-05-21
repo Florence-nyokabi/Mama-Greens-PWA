@@ -246,3 +246,223 @@ body{
   .content-item .btn:hover {
     background-color: #45a049;
   }
+  /*  */
+  
+
+  @media only screen and (max-width: 768px) {
+    .dashboard {
+      flex-direction: column;
+    }
+
+    .sidebar {
+      width: 90%;
+    }
+
+    .metric {
+      flex-basis: 100%;
+    }
+  }
+  /* for screens with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+  #overview .overview-content {
+    display: block;
+    /* remove gap property for better layout */
+  }
+
+  .metric {
+    flex-basis: unset;
+    width: 60%;
+    margin-bottom: 20px; /* add some spacing between metric divs */
+  }
+}
+@media only screen and (max-width: 600px) {
+  #inventory h2{
+    margin-top: 30px;
+    font-size: 24px;
+  }
+
+  #inventory .inventory-content {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  tbody td.status {
+    font-size: 14px;
+  }
+
+  #customers h2{
+    margin-top: 30px;
+    font-size: 24px;
+  }
+
+  #customers .customer-content {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  tbody td.orders {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  #orders h2 {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  
+  #orders .order-content {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  table {
+    font-size: 12px;
+  }
+  
+  thead th {
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  tbody td {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens smaller than 480px */
+  #orders h2 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #orders .order-content {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  
+  table {
+    font-size: 10px;
+  }
+  
+  thead th {
+    padding: 3px;
+    font-size: 10px;
+  }
+  
+  tbody td {
+    padding: 3px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+/*
+  
+  
+  
+  
+  
+  
+/*
+  
+  
+  
+  
+  
+/*
+  
+  
+  
+  
+  
+/*
+  
+  
+  
+  
+  
+/*
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+

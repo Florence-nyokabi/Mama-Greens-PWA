@@ -38,24 +38,21 @@
 
     <br><br><br>
     <div class="logo">
-        <h1 id="named"><span>Mama Greens</span> </h1>
+        <!-- <h1 id="named"><span>Mama Greens</span> </h1> -->
     </div>
-
-    <div class="login-box">
-        
-    
+    <div class="signup-box">
         <h1>Login</h1>
-        <form >
-            <label>UserName</label>
-            <input type="text" placeholder="" >
-            <label>Password</label>
-            <input type="password" placeholder="" >
-            <br><br>
-            <button class="searchInput1" ><a href="product.html">Submit</a></button>
-
-
+        <form>
+          <label for="name">UserName:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <input type="button" value="Submit">
         </form>
-    </div>
-    <p class="para-2">Don't have an account? <a href="customer-signup.html">Sign Up Here</a></p>
-</body>
+      <p>Already have an account? <a href="#" id="para-2">Sign Up Here</a></p>
+        
+      </div>
+    </body>
 </html>
